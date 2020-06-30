@@ -13,6 +13,5 @@ namespace Curso.Entidades
         {
             return Identicicador + ", " + Momento + ", " + Status;
         }
-
     }
 }

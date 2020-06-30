@@ -1,5 +1,6 @@
 ﻿namespace Curso.Entidades.Enumerados
-{                   //definição do tipo enumerado StatusDoPedido
+{                  
+    //definição do tipo enumerado StatusDoPedido
     enum StatusDoPedido : int 
     {
         PagamentoPendente = 0,

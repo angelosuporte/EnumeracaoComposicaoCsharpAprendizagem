@@ -21,12 +21,10 @@ namespace Curso
             string texto = StatusDoPedido.PagamentoPendente.ToString();
 
             //Convertendo string para enumerados
-
             StatusDoPedido informa = Enum.Parse<StatusDoPedido>("Entregue");
 
             Console.WriteLine(texto);
             Console.WriteLine(informa);
-
         }
     }
 }
